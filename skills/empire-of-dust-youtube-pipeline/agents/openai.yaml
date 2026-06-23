@@ -1,0 +1,7 @@
+interface:
+  display_name: "Empire of Dust YouTube Pipeline"
+  short_description: "Split Empire of Dust scripts into per-episode Seedance prompts, produce daily 4-beat videos, publish to YouTube Shorts, and update review data."
+  default_prompt: "Use $empire-of-dust-youtube-pipeline to split the Empire of Dust script into per-episode Beat1-4 Seedance prompt files under /Users/flowith-mac-mini-001-user/Downloads/Empire of Dust , then run today's episode through fixed-canvas generation, 1080x1920 subtitled export, YouTube Shorts publishing to the Empire of Dust playlist, and dashboard review."
+
+policy:
+  allow_implicit_invocation: true
